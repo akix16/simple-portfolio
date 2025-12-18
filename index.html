@@ -1,60 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Akshara | UI/UX Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- HERO -->
   <header class="hero">
-    <h1>Hi, I’m Akshara 🌸</h1>
-    <p>UI/UX Designer • AI/ML Student</p>
-    <a href="#projects" class="btn">my work</a>
+    <h1>Akshara</h1>
+    <p class="subtitle">UI/UX Designer · AI/ML Student</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#resume" class="btn secondary">Download CV</a>
+    </div>
   </header>
 
+  <!-- ABOUT -->
   <section class="about">
-    <h2>about me</h2>
+    <h2>About Me</h2>
     <p>
-      I design soft, thoughtful and user-friendly digital experiences.
-      I love pastel aesthetics, minimal layouts and emotionally
-      comforting interfaces.
+      I’m a design-focused engineering student passionate about creating
+      calm, intuitive and emotionally comforting digital experiences.
+      I enjoy blending soft aesthetics with strong usability principles.
     </p>
   </section>
 
+  <!-- SKILLS -->
+  <section class="skills">
+    <h2>Skills & Tools</h2>
+    <div class="skill-grid">
+      <span>UI Design</span>
+      <span>UX Research</span>
+      <span>Wireframing</span>
+      <span>Figma</span>
+      <span>HTML & CSS</span>
+      <span>Design Systems</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
   <section id="projects" class="projects">
-    <h2>selected projects</h2>
+    <h2>Selected Projects</h2>
 
     <div class="project-card">
       <h3>🌷 Bloom — Self Care App</h3>
       <p>
-        A soft-aesthetic self-care mobile app focused on mental wellness,
-        journaling and daily affirmations.
+        A soft-aesthetic mental wellness app focusing on journaling,
+        affirmations and mood tracking.
       </p>
-      <span>UI/UX • Mobile Design</span>
+      <a href="#" class="project-link">View Case Study →</a>
     </div>
 
     <div class="project-card">
       <h3>📒 Focusly — Productivity App</h3>
       <p>
-        A calm productivity app for college students with minimal
-        distractions and gentle reminders.
+        A minimal productivity app designed for college students to
+        reduce burnout and improve focus.
       </p>
-      <span>UX Research • App Concept</span>
+      <a href="#" class="project-link">View Case Study →</a>
     </div>
 
     <div class="project-card">
-      <h3>🤍 Personal Portfolio</h3>
+      <h3>🤍 Personal Portfolio Website</h3>
       <p>
-        My personal portfolio website designed with a soft-girl UI
-        aesthetic using HTML & CSS.
+        A responsive personal portfolio built with HTML & CSS and deployed
+        using GitHub Pages.
       </p>
-      <span>Web Design • Frontend</span>
+      <a href="#" class="project-link">View GitHub →</a>
     </div>
   </section>
 
+  <!-- RESUME -->
+  <section id="resume" class="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume below.</p>
+    <a href="resume.pdf" class="btn primary">Download CV</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: akshara@example.com</p>
+    <p>GitHub: github.com/akix16</p>
+  </section>
+
   <footer>
-    <p>designed with ♡ by Akshara</p>
+    <p>Designed & built by Akshara ♡</p>
   </footer>
 
 </body>
